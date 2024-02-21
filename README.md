@@ -23,7 +23,7 @@ Este proyecto es una implementación simple del clásico juego de ahorcado utili
 
 ## Cómo Jugar
 
-1. Abre el archivo `index.html` en tu navegador web.
+1. Abre el archivo `index.html` en tu navegador webo puedes jugarlo aquí: https://ahorcado-psi.vercel.app/
 2. Selecciona una letra haciendo clic en los botones del teclado virtual.
 3. Intenta adivinar la palabra oculta antes de agotar todas las oportunidades.
 4. ¡Diviértete!
@@ -32,6 +32,5 @@ Este proyecto es una implementación simple del clásico juego de ahorcado utili
 
 Siéntete libre de contribuir a este proyecto abriendo problemas (issues) o enviando solicitudes de extracción (pull requests). Cualquier sugerencia, corrección de errores o mejora de funcionalidades son bienvenidas.
 
-## Créditos
 
 
