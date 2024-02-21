@@ -1,5 +1,12 @@
 document.addEventListener('DOMContentLoaded', function () {
-    const words = ['javascript', 'html', 'css', 'python', 'react']; // Lista de palabras para adivinar
+    const words = [
+        "computadora", "gato", "perro", "casa", "mesa", "silla", "jardín", "ventana", "puerta", "libro",
+        "teléfono", "televisión", "lápiz", "escritorio", "plato", "tenedor", "cuchillo", "taza", "reloj",
+        "bicicleta", "tren", "automóvil", "avión", "barco", "globo", "árbol", "flor", "montaña", "río",
+        "lago", "mar", "sol", "luna", "estrella", "nube", "lluvia", "nieve", "viento", "calor", "frío",
+        "helado", "pizza", "hamburguesa", "sándwich", "ensalada", "fruta", "verdura", "carne", "pescado", "pollo"
+    ];
+    
     let word = ''; // Palabra a adivinar
     let guessedLetters = []; // Letras adivinadas
     let chances = 6; // Oportunidades restantes
@@ -46,7 +53,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Función para crear los botones del teclado
     function createKeyboard() {
-        const alphabet = 'abcdefghijklmnopqrstuvwxyz';
+        const alphabet = 'abcdefghijklmnñopqrstuvwxyz';
         keyboard.innerHTML = '';
         alphabet.split('').forEach(letter => {
             const button = document.createElement('button');
@@ -86,3 +93,4 @@ document.addEventListener('DOMContentLoaded', function () {
     // Inicializar el juego al cargar la página
     init();
 });
+

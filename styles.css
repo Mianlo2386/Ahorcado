@@ -33,10 +33,11 @@ body {
 
 .keyboard {
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(7, 1fr); /* Cambiamos de 6 a 7 columnas */
     gap: 10px;
     justify-content: center;
 }
+
 
 .keyboard button {
     padding: 10px 20px;
